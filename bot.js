@@ -42,7 +42,7 @@ client.on('message', message => {
       message.channel.send(`**تم الارسال في الخاص**`);
 			let embed = new Discord.RichEmbed()
                 .setColor('RANDOM')
-                .addField('     **=-=-:: [Mazza Shop] ::-=-=** ' ,'╔[❖═════════════════════❖]╗')
+                .addField('     **=-=-:: [Vodka BC-DZ$HOP:hearts:] ::-=-=** ' ,'╔[❖═════════════════════❖]╗')
 				.addField(`**${prefix}v | رسالة جماعية لجميع الاعضاء**` ,'**=-=-=-=-=-=-=-=-=-=-=**')
 				.addField(`**${prefix}v1 | رسالة جماعية للاونلاين فقط**` ,'**=-=-=-=-=-=-=-=-=-=-=**')
 				.addField(`**${prefix}v2 | رسالة جماعية للوفلاين فقط**` ,'**=-=-=-=-=-=-=-=-=-=-=**')
@@ -56,9 +56,9 @@ client.on('message', message => {
 });
 
 
- client.on("message", message => {//bc1
+ client.on("message", message => {//v1
 
-            if (message.content.startsWith(prefix + "bc")) {
+            if (message.content.startsWith(prefix + "v")) {
                          if (!message.member.hasPermission("ADMINISTRATOR"))  return;
   let args = message.content.split(" ").slice(1);
   var argresult = args.join(' '); 
@@ -85,9 +85,9 @@ client.on("message", message => {//bc1
 };     
 });
 
-client.on("message", message => {//bc2
+client.on("message", message => {//v2
 
-            if (message.content.startsWith(prefix + "bc2")) {
+            if (message.content.startsWith(prefix + "v2")) {
                          if (!message.member.hasPermission("ADMINISTRATOR"))  return;
   let args = message.content.split(" ").slice(1);
   var argresult = args.join(' '); 
@@ -101,17 +101,17 @@ client.on("message", message => {//bc2
 
 
 
-client.on('message' , message => {//bcrole
+client.on('message' , message => {//vrole
   if(message.author.bot) return;
-  if(message.content.startsWith(prefix + "bcrole")) {
+  if(message.content.startsWith(prefix + "vrole")) {
     let args = message.content.split(" ").slice(1);
 
     if(!args[0]) {
-      message.channel.send("قم بمنشنة الرتبة | *bcrole @everyone رساله");
+      message.channel.send("قم بمنشنة الرتبة | *vrole @everyone رساله");
         return;
     }
     if(!args[1]) {
-      message.channel.send("قم بمنشنة الرتبة | *bcrole @everyone رساله");
+      message.channel.send("قم بمنشنة الرتبة | *vrole @everyone رساله");
         return;
     }
 
