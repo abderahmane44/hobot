@@ -314,7 +314,7 @@ client.on("reachLimit", (limit)=> {
 
 
 
-const gamestats = [`Mazza Shop`,`Mazza Shop`,`Mazza Shop`,`Mazza Shop`]
+const gamestats = [`Vodka BC DZ$HOP`,`Vodka BC DZ$HOP`,`Vodka BC DZ$HOP`,`Vodka BC DZ$HOP`]
 var index = 0
 var timer = 10 // الوقت بالثواني لتغير الستريمنق
 client.on("ready", ()=> {
