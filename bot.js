@@ -314,7 +314,7 @@ client.on("reachLimit", (limit)=> {
 
 
 
-const gamestats = [`!help`,`. Teen ,`,`. Teen Bc ,,`]
+const gamestats = [`!!help`,`. Teen ,`,`. Teen Bc ,,`]
 var index = 0
 var timer = 10 // الوقت بالثواني لتغير الستريمنق
 client.on("ready", ()=> {
